@@ -6,7 +6,7 @@ public class BulletMoveLoop : MonoBehaviour
 {
     public Transform pontoA;
     public Transform pontoB;
-    public float Speed = 1f;
+    public float Speed = 1;
 
     private float t = 0f;
     private bool indo = true;

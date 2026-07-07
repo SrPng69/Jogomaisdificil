@@ -7,9 +7,9 @@ public class NextLevelLogic : MonoBehaviour
 {
     public string ProximoLevel;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collider2D)
     {
-        if (other.CompareTag("Player"))
+        if (collider2D.CompareTag("Player"))
         {
             SceneManager.LoadScene(ProximoLevel);
         }
