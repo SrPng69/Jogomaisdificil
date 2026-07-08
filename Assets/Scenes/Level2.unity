@@ -510,6 +510,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
+      propertyPath: Speed
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
       propertyPath: pontoA
       value: 
       objectReference: {fileID: 1714371397}
@@ -728,7 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f30ed6889d8ddde49a5c87497c3c8696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProximoLevel: Level3
+  Level1: Level3
 --- !u!1001 &369110931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1720,6 +1724,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
+      propertyPath: Speed
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
       propertyPath: pontoA
       value: 
       objectReference: {fileID: 2029030207}
@@ -1789,6 +1797,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
+      propertyPath: Speed
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
       propertyPath: pontoA
       value: 
@@ -2135,6 +2147,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
+      propertyPath: Speed
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 1723908676369072036, guid: bfc993b1f85b0ae41ad25a1714a38415, type: 3}
       propertyPath: pontoA
       value: 

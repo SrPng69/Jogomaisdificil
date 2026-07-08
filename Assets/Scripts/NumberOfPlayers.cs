@@ -16,6 +16,11 @@ public class NumberOfPlayers : MonoBehaviour
     public bool progressao = false;
     public GameObject nextLevelPortal;
 
+    private void Start()
+    {
+        nextLevelPortal.SetActive(false);
+    }
+
     public void Update()
     {
         if (progressao)
