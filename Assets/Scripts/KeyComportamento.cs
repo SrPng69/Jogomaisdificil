@@ -10,6 +10,12 @@ public class KeyComportamento : MonoBehaviour
         {
             NumberOfPlayers.instance.AddKey();
             Destroy(gameObject);
+
+            if (NumberOfPlayers.instance.progressao)
+            {
+              NumberOfPlayers.instance.nextLevelPortal.SetActive(true);
+            }
+
         }
     }
 }

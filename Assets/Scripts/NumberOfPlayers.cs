@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-/*
-  
+/* 
  !!!!!!!!!KEYS GAME MANAGER!!!!!!!!!
-
 */
 public class NumberOfPlayers : MonoBehaviour
 {
@@ -20,14 +18,6 @@ public class NumberOfPlayers : MonoBehaviour
     {
         nextLevelPortal.SetActive(false);
     }
-
-    public void Update()
-    {
-        if (progressao)
-        {
-            nextLevelPortal.SetActive(true);
-        }
-    }   
 
     private void Awake()
     {

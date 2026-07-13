@@ -14,8 +14,7 @@ public class Movemento : MonoBehaviour
         Movimento.y = Input.GetAxisRaw("Vertical");
 
         Movimento = Movimento.normalized;
-
-        PararMovimentoCasoSairDaTela();
+        EncerrarMovimentoAoSairDaTela();
     }
 
     private void FixedUpdate()
@@ -23,7 +22,7 @@ public class Movemento : MonoBehaviour
         transform.position += (Vector3)(Movimento * moveSpeed * Time.fixedDeltaTime);
     }
 
-    private void PararMovimentoCasoSairDaTela()
+    private void EncerrarMovimentoAoSairDaTela()
     {
         if (transform.position.x < -9f || transform.position.x > 9f)
         {
