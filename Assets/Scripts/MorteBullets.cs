@@ -9,6 +9,7 @@ public class MorteBullets : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(other.gameObject);
+            MortesNumber.quant_Mortes++;
         }
     }
 }
