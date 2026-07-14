@@ -28,7 +28,7 @@ public class MortesNumber : MonoBehaviour
         }
         else
         {
-            mortesText.text = $"Impossível... Suas mortes são mais que 8000!";
+            mortesText.text = $"Impossível... Suas mortes são mais que 8000!"; //UFF
         }
         
     }
