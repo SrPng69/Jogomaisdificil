@@ -35,7 +35,7 @@ public class NumberOfPlayers : MonoBehaviour
     {
         Keys++;
 
-        if (Keys == keysNecessarias)
+        if (Keys >= keysNecessarias)
         {
             progressao = true;
         }

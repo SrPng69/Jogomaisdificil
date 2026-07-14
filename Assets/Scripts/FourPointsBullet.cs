@@ -7,7 +7,7 @@ public class FourPointsBullet /* Três pontos na verdade */ : MonoBehaviour
     public Transform pontoA;
     public Transform pontoB;
     public Transform pontoC;
-    private Transform pontoD; // <--- Sem utilidade por enquanto
+    private Transform pontoD; // <--- Sem utilidade agora, mas manterei para quando for criar um de 4 pontos.
     public float Speed = 1;
 
     private float t = 0f;
