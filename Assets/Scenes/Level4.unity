@@ -307,7 +307,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4288224212444022307, guid: 725e0cc98a82def45a20f351236f55d3, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7866477164279450362, guid: 725e0cc98a82def45a20f351236f55d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f30ed6889d8ddde49a5c87497c3c8696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Level1: Level5
+  nextLevel: Level5
 --- !u!1001 &7102455707483763786
 PrefabInstance:
   m_ObjectHideFlags: 0

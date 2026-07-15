@@ -6,7 +6,7 @@ using UnityEngine;
 public class MortesNumber : MonoBehaviour
 {
     public TextMeshPro mortesText;
-    [Min(0)] public static int quant_Mortes = 0;
+    public static int quant_Mortes = 0;
     
     void Start()
     {
@@ -14,7 +14,7 @@ public class MortesNumber : MonoBehaviour
         {
             mortesText.text = $"Parabéns! Você finalizou o jogo sem morrer nenhuma vez!";
         }
-         else if (quant_Mortes >= 0 && quant_Mortes <= 10)
+         else if (quant_Mortes <= 10)
         {
             mortesText.text = $"Parabéns! Você finalizou o jogo e morreu {quant_Mortes} vezes!";
         }
